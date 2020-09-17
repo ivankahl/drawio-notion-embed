@@ -75,14 +75,17 @@ If you want to deploy to Netlify, you can simply click the button below:
 ## Usage
 
 1. In draw.io, go to **File -> Export as -> URL...**
+   
    ![Export the diagram to URL in draw.io](images/1-export-url.png)
 2. Copy the URL that is displayed.
 3. Navigate to [https://drawio-notion-embed.netlify.app/](https://drawio-notion-embed.netlify.app/) (or your own URL)
 4. Paste the URL that you copied from draw.io into the text box and click **Go**
 5. A link will be displayed below that you can copy
 6. In Notion, paste the link and in the popup, click _Create embed_
+   
    ![The popup](images/6-popup.png)
 7. You should see the diagram embedded in Notion now
+   
    ![The final result](images/7-result.png)
 
 <!-- CONTRIBUTING -->
