@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/ivankahl/drawio-notion-embed">
+    <img src="images/Drawio_Notion.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">draw.io Notion Embed</h3>
