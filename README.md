@@ -44,7 +44,11 @@
 
 [![draw.io Notion Embed](images/screenshot.png)](https://drawio-notion-embed.netlify.app/)
 
-Embedding draw.io diagrams inside Notion is a bit of pain because it doesn't work. If you have tried to embed a diagram in Notion, you will notice that it breaks. This is quite frustrating when you are doing project planning or writing technical documentation in Notion and wish to link to your diagrams in Notion.
+Embedding draw.io diagrams inside Notion is a bit of pain because it doesn't work. If you have tried to embed a diagram in Notion, you will notice that it breaks.
+
+![This is probably the error you see in Notion](images/the-bad.png)
+
+This is quite frustrating when you are doing project planning or writing technical documentation in Notion and wish to link to your diagrams in Notion.
 
 This very very simple HTML page fixes this. It allows you to specify your draw.io Embed URL and then it will render it in a fullscreen, responsive iFrame that can be embedded into Notion and look good!
 
