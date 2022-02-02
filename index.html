@@ -90,6 +90,12 @@
       .disclaimer {
         color: #bbb;
         font-size: 0.8em;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      .disclaimer a {
+          color: #bbb;
       }
     </style>
   </head>
@@ -111,7 +117,7 @@
           <input type="submit" value="Copy" onclick="onCopyClick()" />
         </div>
         <p class="disclaimer">
-          This website is in no way affiliated with Notion
+          This website is in no way affiliated with Notion<br/><a href="https://github.com/ivankahl/drawio-notion-embed" target="_blank">GitHub</a> &bullet; <a href="https://ivankahl.com/">Ivan Kahl</a>
         </p>
       </div>
       <iframe id="draw-iframe" class="hide" src=""></iframe>
