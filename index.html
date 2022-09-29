@@ -95,7 +95,7 @@
       }
 
       .disclaimer a {
-          color: #bbb;
+        color: #bbb;
       }
     </style>
   </head>
@@ -117,7 +117,12 @@
           <input type="submit" value="Copy" onclick="onCopyClick()" />
         </div>
         <p class="disclaimer">
-          This website is in no way affiliated with Notion or draw.io<br/><a href="https://github.com/ivankahl/drawio-notion-embed" target="_blank">GitHub</a> &bullet; <a href="https://ivankahl.com/" target="_blank">Ivan Kahl</a>
+          This website is in no way affiliated with Notion or draw.io<br /><a
+            href="https://github.com/ivankahl/drawio-notion-embed"
+            target="_blank"
+            >GitHub</a
+          >
+          &bullet; <a href="https://ivankahl.com/" target="_blank">Ivan Kahl</a>
         </p>
       </div>
       <iframe id="draw-iframe" class="hide" src=""></iframe>
@@ -168,7 +173,7 @@
       function onGoClick() {
         const url = document.getElementById("embedUrl").value;
 
-        let finalUrl = getBaseUrl() + "?u=" + encodeURIComponent(url);
+        let finalUrl = getBaseUrl() + "index.html?u=" + encodeURIComponent(url);
         document.getElementById("finalUrl").value = finalUrl;
 
         document.getElementById("form-result").classList.remove("hide");
